@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../img/pexels-donghuangmingde-2313037.jpg); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  color: #FFFFFF; /* Changed text color to white */
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px; /* Increased font size to 24px */
+}
+
+.image-box {
+  width: 400px; /* Increased width to 400px */
+  height: 370px; /* Increased height to 370px */
+  border-radius: 50%;
+  box-shadow: 10px -1px 24px;
+}
+
+.box{
+  width: 450px; /* Increased width to 450px */
+  background: rgba(0, 0, 0, 0.5); 
+  margin: 15px auto;
+  border-radius: 10px;
+  padding: 25px; /* Increased padding to 25px */
+  color: #FFFFFF; /* Changed text color to white */
+  text-align: center;
+}
+
+.box h1{
+  font-size: 45px; /* Increased font size to 45px */
+  letter-spacing: 4px;
+  font-weight: 600;
+  border-top: 2px;
+  margin-bottom: 10px ; /* Increased margin bottom to 10px */
+  color: #FFFFFF; /* Changed text color to white */
+  text-shadow: 10px -1px 24px,0px  #F5DEB3; 
+}
+
+.box h2{
+  font-size: 40px; /* Increased font size to 40px */
+  letter-spacing: 4px;
+  font-weight: 500;
+  margin-bottom: 10px ; /* Increased margin bottom to 10px */
+  color: #FFFFFF; /* Changed text color to white */
+}
+
+.box p{
+  text-align: justify;
+  font-weight: 400; /* Increased font weight to 400 */
+  font-size: 24px; /* Increased font size to 24px */
+  color: #FFFFFF; /* Changed text color to white */
+}
+
+ul{
+  list-style: none;
+  margin-top: 15px; /* Increased margin top to 15px */
+}
+
+ul li{
+  display: inline-block;
+}
+
+.box ul li a{
+  color: #000000; /* Changed text color to white */
+  font-size: 35px; /* Increased font size to 35px */
+  padding: 10px 12px; /* Increased padding to 10px 12px */
+  display: block;
+  transition: all 0.7s ease-in-out;
+  border-radius: 50px; /* Added border radius to make buttons more rounded */
+  background: #ffffff; /* Changed background color to a darker brown */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Added box shadow to make buttons more appealing */
+}
+
+.box ul li a:hover{
+  color: #FFFFFF; /* Changed text color to white */
+  transform: scale(1.4);
+  background: #000000; /* Changed background color to a lighter brown on hover */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Increased box shadow on hover */
+}
+
+a:hover span {
+  color: #FFFFFF; /* Changed text color to white */
+}
